@@ -1,0 +1,27 @@
+.admin {
+    display: flex;
+    flex-direction: column;
+
+    &__panel {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            text-align: center;
+            padding: 0 10px !important;
+            border: none;
+            border-radius: 100px;
+            width: 220px;
+            background-color: #ff3a30 !important;
+            color: white !important;
+            font-size: 16px !important;
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+        }
+    }
+}
+
+
+table {
+    padding: 1rem;
+}

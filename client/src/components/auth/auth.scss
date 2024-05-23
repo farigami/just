@@ -1,0 +1,54 @@
+.auth {
+    align-self: center;
+    border:4px solid #ff3a30;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 16px;
+    color: rgb(65, 65, 65);
+    h1 {
+        align-self: center;
+    }
+    input {
+        padding: 1rem 2rem;
+        align-self: center;
+        font-size: 16px;
+        border:none;
+        border: 3px solid #ff3a30;
+        border-radius: 200px;
+        &:focus {
+            border: none;
+            outline: none;
+            border: 4px solid #ff3a30;
+        }
+
+    }
+    button {
+        align-self: center;
+        width: 45%;
+        text-align: center;
+        padding: 0.75rem;
+        margin: 0 0.5rem;
+        border: none;
+        border-radius: 100px;
+        background-color: #ff3a30;
+        color: white;
+        font-size: 16px;
+    }
+    a {
+        align-self: center;
+    }
+
+    h3{
+        align-self: center;
+    }
+    .auth__buttons {
+        display: flex;
+        flex-direction: column;
+        *{
+            margin: 0.1rem;
+        }
+    }
+}
